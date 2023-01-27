@@ -1,11 +1,8 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  background-color: rgb(94, 174, 94);
+  height: 100vh;
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -22,6 +19,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.app-image{
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
 }
 
 .App-link {

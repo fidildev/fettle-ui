@@ -1,0 +1,15 @@
+.header-container{
+    display: flex;
+    border: 2px solid black;
+
+}
+
+.header-left{
+    flex:4;
+}
+.header-center{
+    flex:4;
+}
+.header-right{
+    flex:4;
+}
