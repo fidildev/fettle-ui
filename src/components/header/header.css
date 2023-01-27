@@ -7,6 +7,11 @@
 .header-left{
     flex:4;
 }
+.logo-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 40%;
+}
 .header-center{
     flex:4;
 }

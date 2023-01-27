@@ -10,7 +10,7 @@ function Header() {
     
       <div className="header-left">
         <span className="logo">
-          <img src="" alt="fettle logo" className='logo-image' />
+          <img src="assets/letterF.jpg" alt="fettle logo" className='logo-image' />
           Fettle
         </span>
 
