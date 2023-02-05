@@ -1,10 +1,10 @@
-.header-container{
+.navbar-container{
     display: flex;
     border: 2px solid black;
 
 }
 
-.header-left{
+.navbar-left{
     flex:4;
 }
 .logo-image{
@@ -12,9 +12,11 @@
     width: 50px;
     border-radius: 40%;
 }
-.header-center{
+.navbar-center{
     flex:4;
 }
-.header-right{
+.navbar-right{
+    display: flex;
     flex:4;
+    margin-right: 20px;
 }

@@ -1,14 +1,13 @@
 import React from 'react'
 import { BiLogIn } from 'react-icons/bi';
 import { BsSearch } from 'react-icons/bs';
-import './header.css'
+import './navbar.css'
 
-
-function Header() {
+function Navbar() {
   return (
-    <div className='header-container'>
+    <div className='navbar-container'>
     
-      <div className="header-left">
+      <div className="navbar-left">
         <span className="logo">
           <img src="assets/letterF.jpg" alt="fettle logo" className='logo-image' />
           Fettle
@@ -16,22 +15,22 @@ function Header() {
 
       </div>
 
-      <div className="header-center">
+      <div className="navbar-center">
         
         <BsSearch className='search-icon'/>
         <input type="text" placeholder='do you want this?' className='search-input'/>
 
       </div>
 
-      <div className="header-right">
-        Login
+      <div className="navbar-right">
+        <ul>
+            <li>Sign Up</li>
+            <li> Login</li>
+        </ul>
         <BiLogIn />
-
       </div>
-
-
     </div>
   )
 }
 
-export default Header
+export default Navbar

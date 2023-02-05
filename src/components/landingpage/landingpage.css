@@ -1,4 +1,7 @@
 .landingpage-container{
     text-align: center;
     flex:9;
+    background-color: rgb(6, 161, 6);
+    height: 100vh;
 }
+
