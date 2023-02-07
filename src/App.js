@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Login from './components/login/Login';
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
+import NotFound from './components/notfound/NotFound';
 
 function App() {
   const user =false
@@ -14,6 +15,7 @@ function App() {
             <Routes>
               <Route path='/' element={<Landingpage />} />
               <Route path='/login' element={user? <Navigate to ='/' />: <Login />} />
+              <Route path='/*' element={<NotFound />} />
             </Routes>
           <Footer />
       </div>
