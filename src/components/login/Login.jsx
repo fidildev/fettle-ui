@@ -2,10 +2,10 @@ import React from 'react'
 import GithubButton from 'react-github-login-button'
 import './login.css'
 
-function Login2() {
+function Login() {
   return (
-    <div>
-        <section className="vh-90 " style={{backgroundColor: "#82adfc"}}>
+    <div className='login-container'>
+        <section className="vh-100 mt-5" style={{backgroundColor: "#82adfc"}}>
             <div className="container py-5 h-100 ">
                 <div className="row d-flex justify-content-center align-items-center h-100 ">
                 <div className="col-12 col-md-8 col-lg-6 col-xl-5 ">
@@ -49,4 +49,5 @@ function Login2() {
   )
 }
 
-export default Login2
+export default Login
+
