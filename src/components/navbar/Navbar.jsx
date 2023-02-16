@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsSearch } from 'react-icons/bs';
 import {Link} from 'react-router-dom'
+import Profile from '../profile/Profile';
 import './navbar.css'
 
 function Navbar() {
@@ -15,9 +16,11 @@ function Navbar() {
       <div className="navbar-center">
         <BsSearch className='search-icon'/>
         <input type="text" placeholder='do you want this?' className='search-input'/>
+        <Profile />
       </div>
         <div className="navbar-right">
             <Link className='links' to='/login'> Log In</Link>
+            <Link className='links' to='/logout'> Log Out</Link>
             <Link className='links' to='/newaccount'> New Account</Link>  
       </div>
     </div>
