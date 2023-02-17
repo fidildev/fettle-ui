@@ -1,0 +1,28 @@
+.landingpage-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color:#82adfc;
+    height: 100vh;
+}
+.marketing-info{
+    margin-top: 150px;
+    flex:1;
+    justify-content: center;
+    /* text-align: center; */
+}
+.pricing{
+    flex: 1;
+    justify-content: center;
+    /* text-align: center; */
+}
+.hr{
+    width: 100%;
+    height: 10px;
+    background: #095484;
+    background-image: linear-gradient(to right, #ccc, #095484, #ccc)
+
+}
+
